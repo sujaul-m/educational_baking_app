@@ -38,5 +38,36 @@ db.projects.insertMany([
     "To assemble the cake, put a small dollop of icing onto a plate and put one of the cakes on top. Spread the top of the cake with half the icing, leaving a 1cm border around the edge.",
 
     "Put the second cake on top and push down very gently. Spread the remaining icing over the top."]
-  }
+  },
+  {
+    name: "Chocolate Chip Cookie",
+    bakingType: "Cookie",
+    bread: false,
+    cookie: true,
+    brownie: false,
+    cake: false,
+    favourite: false,
+    inOven: false,
+    rating: null,
+    cookingTime: "25-30 Minutes",
+    difficulty: "Easy",
+    serves: "30",
+    description: "An easy chocolate chip cookie recipe for soft biscuits with a squidgy middle that will impress family and friends. Make plenty as they're sure to be a hit",
+    steps: [ ["150g salted butter, softened", "80g light brown muscovado sugar", "80g granulated sugar", "2 tsp vanilla extract", "1 large egg", "225g plain flour", "½ tsp bicarbonate of soda", "¼ tsp salt", "200g plain chocolate chips or chunks"  ],
+    "Heat the oven to 190C/fan170C/gas 5 and line two baking sheets with non-stick baking paper.",
+
+    "Put 150g softened salted butter, 80g light brown muscovado sugar and 80g granulated sugar into a bowl and beat until creamy.",
+
+    "Beat in 2 tsp vanilla extract and 1 large egg.",
+
+    "Sift 225g plain flour, ½ tsp bicarbonate of soda and ¼ tsp salt into the bowl and mix it in with a wooden spoon.",
+
+    "Add 200g plain chocolate chips or chunks and stir well.",
+
+    "Use a teaspoon to make small scoops of the mixture, spacing them well apart on the baking trays. This mixture should make about 30 cookies.",
+
+    "Bake for 8–10 mins until they are light brown on the edges and still slightly soft in the centre if you press them.",
+
+    "Leave on the tray for a couple of mins to set and then lift onto a cooling rack."]
+  },
 ])

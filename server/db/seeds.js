@@ -107,4 +107,37 @@ db.projects.insertMany([
 
       "Drizzle the icing across the top of the cake and decorate with a handful of banana chips."]
   },
+  {
+    name: "Chocolate Raspberry Brownie",
+    bakingType: "Brownie",
+    bread: false,
+    cookie: false,
+    brownie: true,
+    cake: false,
+    favourite: false,
+    inOven: false,
+    rating: null,
+    cookingTime: "50-60 Minutes",
+    difficulty: "Easy",
+    serves: "15",
+    description: "A cross between banana bread and a drizzle cake, this easy banana loaf recipe is a quick bake that can be frozen and is great for using up overripe bananas",
+    steps: [
+      ["200g dark chocolate, broken into chunks", "100g milk chocolate, broken into chunks", "250g pack salted butter", "400g soft light brown sugar", "4 large eggs", "140g plain flour", "50g cocoa powder", "200g raspberries" ],
+
+      "Heat oven to 180C / 160C fan / gas 4.",
+
+      "Line a 20 x 30cm baking tray tin with baking parchment.",
+
+      "Put the chocolate, butter and sugar in a pan and gently melt, stirring occasionally with a wooden spoon. Remove from the heat.",
+
+      "Stir the eggs, one by one, into the melted chocolate mixture.",
+
+      "Sieve over the flour and cocoa, and stir in.",
+
+      "Stir in half the raspberries, scrape into the tray, then scatter over the remaining raspberries.",
+
+      "Bake on the middle shelf for 30 mins or, if you prefer a firmer texture, for 5 mins more.",
+
+      "Cool before slicing into squares. Store in an airtight container for up to 3 days."]
+  }
 ])

@@ -1,0 +1,2 @@
+use baking;
+db.dropDatabase();

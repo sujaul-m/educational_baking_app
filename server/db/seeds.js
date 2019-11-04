@@ -107,7 +107,7 @@ db.projects.insertMany([
       "Cool before slicing into squares. Store in an airtight container for up to 3 days."]
   },
   {
-    name: "Chsadsadsade",
+    name: "Hazelnut Brownies",
     bakeType: "Brownie",
     bread: false,
     cookie: false,
@@ -115,21 +115,21 @@ db.projects.insertMany([
     cake: false,
     favourite: false,
     inOven: false,
-    cookingTime: "50-60 Minutes",
-    description: "A cross between banana bread and a drizzle cake, this easy banana loaf recipe is a quick bake that can be frozen and is great for using up overripe bananas",
+    cookingTime: "60 Minutes",
+    description: "Ferrero Rocher chocolates make an indulgent finishing touch to these fudgy chocolate brownie squares studded with chopped nuts",
     steps: [
-      ["200g dark chocolate, broken into chunks", "100g milk chocolate, broken into chunks", "250g pack salted butter", "400g soft light brown sugar", "4 large eggs", "140g plain flour", "50g cocoa powder", "200g raspberries" ],
+      ["box of 16 Ferrero Rocher chocolates", "250g pack salted butter, plus extra for greasing", "250g golden caster sugar", "225g light muscovado sugar", "4 large eggs", "100g cocoa powder", "100g self-raising flour", "85g ready-chopped hazelnuts", "4 tbsp Frangelico or Fratello hazelnut liqueur (or Disaronno)" ],
 
-      "Heat oven to 180C / 160C fan / gas 4.",
+      "Unwrap the chocolates, place on a tray and pop in the freezer. Lightly grease and line the base and sides of a 21-22cm square tin with baking parchment.",
 
-      "Line a 20 x 30cm baking tray tin with baking parchment.",
+      " Heat oven to 180C/160C fan/gas 4. Put the butter, sugars and cocoa into your largest saucepan and gently melt together, stirring regularly so the mixture doesn’t catch. Once the sugar granules have just about disappeared, take off the heat, tip into a bowl and leave to cool for 5 mins.",
 
-      "Put the chocolate, butter and sugar in a pan and gently melt, stirring occasionally with a wooden spoon. Remove from the heat. Stir the eggs, one by one, into the melted chocolate mixture.",
+      "Use a whisk or wooden spoon to beat the eggs, one by one, into the mixture. When they’re completely incorporated and the mixture is smooth and shiny, stir in the flour, hazelnuts and liqueur. Tip the mixture into the prepared tin and bake for 35 mins.",
 
-      "Sieve over the flour and cocoa, and stir in. Stir in half the raspberries, scrape into the tray, then scatter over the remaining raspberries.",
+      "Remove the tin from the oven and use a cutlery knife to mark the top of the brownies into 16 squares (don’t cut through, it’s just as a guide).",
 
-      "Bake on the middle shelf for 30 mins or, if you prefer a firmer texture, for 5 mins more.",
+      "Use a teaspoon to push a little dent in the centre of each portion and add a frozen Ferrero Rocher chocolate into each dip. Return to the oven for 3 mins, then remove and leave to cool completely.",
 
-      "Cool before slicing into squares. Store in an airtight container for up to 3 days."]
+      "Once cool, cut into 16 squares. Will keep for 3 days in an airtight container."]
   }
 ])

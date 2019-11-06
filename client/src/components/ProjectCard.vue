@@ -5,7 +5,11 @@
       <div v-if="this.project.bread === true" class="project-card" @click="handleClick">
         <router-link :to="{ name: 'instructions'}">
           <h3>{{ project.name}}</h3>
+          <br>
+          <p><span style="font-weight:bold">Description:</span> {{ project.description }}</p>
+          <br>
           <p><span style="font-weight:bold">Type:</span> {{ project.bakeType }}</p>
+          <br>
           <p><span style="font-weight:bold">Cooking Time:</span> {{ project.cookingTime }}</p>
         </router-link>
         <div class="button-flex">
@@ -22,7 +26,11 @@
       <div v-if="this.project.cookie === true" class="project-card" @click="handleClick">
         <router-link :to="{ name: 'instructions'}">
           <h3>{{ project.name}}</h3>
+          <br>
+          <p><span style="font-weight:bold">Description:</span> {{ project.description }}</p>
+          <br>
           <p><span style="font-weight:bold">Type:</span> {{ project.bakeType }}</p>
+          <br>
           <p><span style="font-weight:bold">Cooking Time:</span> {{ project.cookingTime }}</p>
         </router-link>
         <div class="button-flex">
@@ -39,7 +47,11 @@
       <div v-if="this.project.brownie === true" class="project-card" @click="handleClick">
         <router-link :to="{ name: 'instructions'}">
           <h3>{{ project.name}}</h3>
+          <br>
+          <p><span style="font-weight:bold">Description:</span> {{ project.description }}</p>
+          <br>
           <p><span style="font-weight:bold">Type:</span> {{ project.bakeType }}</p>
+          <br>
           <p><span style="font-weight:bold">Cooking Time:</span> {{ project.cookingTime }}</p>
         </router-link>
         <div class="button-flex">
@@ -56,7 +68,11 @@
       <div v-if="this.project.cake === true" class="project-card" @click="handleClick">
         <router-link :to="{ name: 'instructions'}">
           <h3>{{ project.name}}</h3>
+          <br>
+          <p><span style="font-weight:bold">Description:</span> {{ project.description }}</p>
+          <br>
           <p><span style="font-weight:bold">Type:</span> {{ project.bakeType }}</p>
+          <br>
           <p><span style="font-weight:bold">Cooking Time:</span> {{ project.cookingTime }}</p>
         </router-link>
         <div class="button-flex">
@@ -73,7 +89,11 @@
       <div v-if="this.project.favourite === true" class="project-card" @click="handleClick">
         <router-link :to="{ name: 'instructions'}">
           <h3>{{ project.name}}</h3>
+          <br>
+          <p><span style="font-weight:bold">Description:</span> {{ project.description }}</p>
+          <br>
           <p><span style="font-weight:bold">Type:</span> {{ project.bakeType }}</p>
+          <br>
           <p><span style="font-weight:bold">Cooking Time:</span> {{ project.cookingTime }}</p>
         </router-link>
         <div class="button-flex">
@@ -91,7 +111,11 @@
       @click="handleClick">
       <router-link :to="{ name: 'instructions' }">
         <h3>{{ project.name}}</h3>
+        <br>
+        <p><span style="font-weight:bold">Description:</span> {{ project.description }}</p>
+        <br>
         <p><span style="font-weight:bold">Type:</span> {{ project.bakeType }}</p>
+        <br>
         <p><span style="font-weight:bold">Cooking Time:</span> {{ project.cookingTime }}</p>
       </router-link>
       <div class="button-flex">
@@ -109,7 +133,11 @@
     @click="handleClick">
     <router-link :to="{ name: 'instructions' }">
       <h3>{{ project.name}}</h3>
+      <br>
+      <p><span style="font-weight:bold">Description:</span> {{ project.description }}</p>
+      <br>
       <p><span style="font-weight:bold">Type:</span> {{ project.bakeType }}</p>
+      <br>
       <p><span style="font-weight:bold">Cooking Time:</span> {{ project.cookingTime }}</p>
     </router-link>
     <div class="button-flex">
@@ -169,8 +197,8 @@ export default {
     flex: 1 100%;
     flex-direction: column;
     justify-content: space-between;
-    height: 350px;
-    width: 350px;
+    height: 425px;
+    width: 450px;
   }
   h3 {
     color: white;

@@ -4,8 +4,9 @@
 
       <router-link :to="{ name: 'home'}"><v-img class="logo" src="@/assets/elements/logo.png"></v-img><h1 class="header">Bake It!</h1></router-link>
       <div class="mini-menu">
-        <router-link class="menu" :to="{ name: 'projects', params: { filter: 'favourite' } }"><v-icon large color="#EA7E51">mdi-heart</v-icon>Favourites</router-link>
+        <router-link class="menu" :to="{ name: 'projects', params: {filter: 'favourite' } }"><v-icon large color="#EA7E51">mdi-heart</v-icon>Favourites</router-link>
         <router-link class="menu" :to="{ name: 'projects', params: {filter: 'oven'}  }"><v-icon large color="#FF8073">mdi-pot-mix</v-icon>In the Oven</router-link>
+        <router-link class="menu" :to="{ name: 'recipe', params: {filter: 'new'}  }"><v-icon large color="#FF8073">mdi-plus</v-icon>Add Recipe</router-link>
       </div>
     </div>
   </header>

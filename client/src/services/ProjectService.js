@@ -1,4 +1,7 @@
-const baseURL = 'http://localhost:3000/api/projects/'
+//localhost for baseURL
+//const baseURL = 'http://localhost:3000/api/projects/'
+// heroku edit for baseURL
+const baseURL = 'api/projects/'
 
 export default {
   getProject(){

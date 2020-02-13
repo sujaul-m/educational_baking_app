@@ -4,7 +4,10 @@
     <div v-if="$route.params.filter === 'bread'">
       <div v-if="this.project.bread === true" class="project-card" @click="handleClick">
         <router-link :to="{ name: 'instructions'}">
+          <br>
           <h3>{{ project.name}}</h3>
+          <br>
+          <br>
           <p><span style="font-weight:bold">Type:</span> {{ project.bakeType }}</p>
           <p><span style="font-weight:bold">Cooking Time:</span> {{ project.cookingTime }}</p>
         </router-link>
@@ -21,7 +24,10 @@
     <div v-if="$route.params.filter === 'cookie'">
       <div v-if="this.project.cookie === true" class="project-card" @click="handleClick">
         <router-link :to="{ name: 'instructions'}">
+          <br>
           <h3>{{ project.name}}</h3>
+          <br>
+          <br>
           <p><span style="font-weight:bold">Type:</span> {{ project.bakeType }}</p>
           <p><span style="font-weight:bold">Cooking Time:</span> {{ project.cookingTime }}</p>
         </router-link>
@@ -38,7 +44,10 @@
     <div v-if="$route.params.filter === 'brownie'">
       <div v-if="this.project.brownie === true" class="project-card" @click="handleClick">
         <router-link :to="{ name: 'instructions'}">
+          <br>
           <h3>{{ project.name}}</h3>
+          <br>
+          <br>
           <p><span style="font-weight:bold">Type:</span> {{ project.bakeType }}</p>
           <p><span style="font-weight:bold">Cooking Time:</span> {{ project.cookingTime }}</p>
         </router-link>
@@ -55,7 +64,10 @@
     <div v-if="$route.params.filter === 'cake'">
       <div v-if="this.project.cake === true" class="project-card" @click="handleClick">
         <router-link :to="{ name: 'instructions'}">
+          <br>
           <h3>{{ project.name}}</h3>
+          <br>
+          <br>
           <p><span style="font-weight:bold">Type:</span> {{ project.bakeType }}</p>
           <p><span style="font-weight:bold">Cooking Time:</span> {{ project.cookingTime }}</p>
         </router-link>
@@ -72,7 +84,10 @@
     <div v-if="$route.params.filter === 'favourite'">
       <div v-if="this.project.favourite === true" class="project-card" @click="handleClick">
         <router-link :to="{ name: 'instructions'}">
+          <br>
           <h3>{{ project.name}}</h3>
+          <br>
+          <br>
           <p><span style="font-weight:bold">Type:</span> {{ project.bakeType }}</p>
           <p><span style="font-weight:bold">Cooking Time:</span> {{ project.cookingTime }}</p>
         </router-link>
@@ -90,7 +105,10 @@
       <div v-if="this.project.inOven ===true" class= "project-card"
       @click="handleClick">
       <router-link :to="{ name: 'instructions' }">
+        <br>
         <h3>{{ project.name}}</h3>
+        <br>
+        <br>
         <p><span style="font-weight:bold">Type:</span> {{ project.bakeType }}</p>
         <p><span style="font-weight:bold">Cooking Time:</span> {{ project.cookingTime }}</p>
       </router-link>
@@ -108,7 +126,10 @@
     <div class= "project-card"
     @click="handleClick">
     <router-link :to="{ name: 'instructions' }">
+      <br>
       <h3>{{ project.name}}</h3>
+      <br>
+      <br>
       <p><span style="font-weight:bold">Type:</span> {{ project.bakeType }}</p>
       <p><span style="font-weight:bold">Cooking Time:</span> {{ project.cookingTime }}</p>
     </router-link>
@@ -185,6 +206,7 @@ export default {
     font-weight: 400;
     font-style: italic;
     font-size: 24px;
+    text-align: center;
   }
   span {
     font-style: bold;

@@ -39,7 +39,7 @@ const cors = require('cors');
 app.use(cors());
 app.use(bodyParser.json());
 
-MongoClient.connect('mongodb+srv://baker_12:baker_12@bakingapp-zj8c3.mongodb.net/test?retryWrites=true&w=majority', (err, client) => {
+MongoClient.connect('mongodb+srv://baker_12:baker_12@bakingapp-zj8c3.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true}, (err, client) => {
   if(err){
     console.log(err);
   }

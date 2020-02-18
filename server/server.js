@@ -29,6 +29,7 @@
 //details for heroku
 const express = require('express');
 const app = express();
+const port = process.env.PORT || 8000;
 
 const bodyParser = require('body-parser');
 const MongoClient = require('mongodb').MongoClient;
@@ -49,6 +50,6 @@ MongoClient.connect('mongodb+srv://baker_12:baker_12@bakingapp-zj8c3.mongodb.net
   app.use('/api/projects', projectsRouter);
 })
 
-app.listen(3000, function() {
-  console.log(`listening on port ${this.address().port}`);
+app.listen(port, () => {
+    console.log("App is running on port " + port);
 });

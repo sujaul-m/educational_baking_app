@@ -1,21 +1,7 @@
-//localhost original
-// module.exports = {
-// plugins: {
-//   autoprefixer: {}
-// }
-
-//Heroku edit below
-const path = require('path');
-
+//localhost Code
 module.exports = {
-  devServer: {
-    proxy: {
-      '/api': {
-        target: 'http://localhost:3000/'
-      }
-    }
-  },
   plugins: {
     autoprefixer: {}
   }
 }
+//localhost Code

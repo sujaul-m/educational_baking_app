@@ -1,8 +1,5 @@
-//localhost for baseURL
-//const baseURL = 'http://localhost:3000/api/projects/'
-// heroku edit for baseURL
-const baseURL = 'api/projects/'
-
+//localhost Code
+const baseURL = 'http://localhost:3000/api/projects/'
 export default {
   getProject(){
     return fetch(baseURL)
@@ -19,3 +16,4 @@ export default {
     .then(res => res.json)
   }
 }
+//localhost Code
